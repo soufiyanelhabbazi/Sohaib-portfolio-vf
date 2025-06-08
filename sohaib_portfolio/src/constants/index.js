@@ -10,11 +10,14 @@ import {
   sql,
   django,
   sklearn,
+  reactjs,
   nodejs,
+  expressjs,
   mongodb,
   git,
   figma,
   docker,
+  jenkins,
   bceii,
   ecn,
   um6p,
@@ -25,6 +28,7 @@ import {
   threejs,
   este,
   aia,
+  freelancer,
 } from "../assets";
 
 export const navLinks = [
@@ -44,15 +48,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Data Scientist",
+    title: "ReactJs Developer",
     icon: web,
   },
   {
-    title: "Python Developer",
+    title: "NodeJs Developer",
     icon: mobile,
   },
   {
-    title: "Avaloq Developer",
+    title: "Python Developer",
     icon: backend,
   },
   {
@@ -75,32 +79,36 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "python",
-    icon: python,
-  },
-  {
-    name: "sql",
-    icon: sql,
-  },
-  {
-    name: "Django",
-    icon: django,
-  },
-  {
-    name: "SKlearn",
-    icon: sklearn,
+    name: "React JS",
+    icon: reactjs,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
+    name: "Express JS",
+    icon: expressjs,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
     name: "git",
@@ -118,42 +126,59 @@ const technologies = [
 
 const experiences = [
   {
-    title: "AVALOQ Developer",
-    company_name: "ECN Consulting",
-    icon: ecn,
+    title: "Full Stack Developer",
+    company_name: "Freelance",
+    icon: freelancer,
     iconBg: "#383E56",
-    date: "October 2022 - April 2024",
+    date: "November 2024 - April 2025",
     points: [
-      "Professional consultant in banking technology and information systems (CORE BANKING) using Avaloq language.",
-      "Developing a predictive model based on AI with the aim of detecting high-risk fraudulent claims for SLBP bank using data science technologies.",
-      "Our only client was SLBP Bank located in france.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built e commerce projects for clients.",
+      "Developed responsive user interfaces using React.js and Tailwind CSS.",
+      "Designed secure backends with Node.js/Express and REST APIs.",
+      "Integrated payment solutions (Stripe) and email services (SendGrid).",
+      "Implemented secure authentication with JWT.",
+      "Managed the full development lifecycle: scoping, implementation, testing, and delivery.",
     ],
   },
   {
-    title: "ENSET - PFE Internship in data science",
+    title: "Software Engineer",
+    company_name: "ECN Consulting",
+    icon: ecn,
+    iconBg: "#383E56",
+    date: "October 2022 - October 2024",
+    points: [
+      "Client: Swiss Life Banque Privé, Paris, France.",
+      "Analyzed project specifications and proposed technical solutions tailored to the projects specific needs.",
+      "Developed a microservice to expose payment and money transfer services to third party systems using REST APIs, React.js, and Node.js.",
+      "Performed unit testing using Mockito and PowerMock.",
+      "Set up CI/CD pipelines with Jenkins to automate testing and deployment of software changes to the cloud.",
+      "Technology and banking information systems (CORE BANKING) consulting professional, specializing in Avaloq programming language.",
+    ],
+  },
+  {
+    title: "ENSET - PFE Internship - Software Engineer",
     company_name: "UM6P Bengurir",
     icon: um6p,
     iconBg: "#E6DEDD",
     date: "Feb 2022 - Jul 2022",
     points: [
-      "Forecasting Streamflow in the Rheraya Sub-basin (Marrakech - Tensift) using Artificial Intelligence Methods: Research and Deployment.",
-      "Tools: Python , Django , Bokeh , GeoPandas, arcPy , Panel , HvPlot , Scikit-learn , Numpy , Pandas;",
+      "Designed and developed a web solution for streamflow forecasting in the Rheraya sub basin (Marrakech Tensift) using artificial intelligence methods.",
+      "Tools: ReactJs, NodeJs, ExpressJs, MongoDB, Python , Bokeh, Panel , HvPlot , Scikit learn , Numpy , Pandas;",
     ],
   },
   {
-    title: "ENSET - Engineering Internship in Ai",
+    title: "ENSET - Engineering Internship - Software Engineer",
     company_name: "BYCODE",
     icon: bycode,
     iconBg: "#383E56",
     date: "Jul 2021 - Sep 2021",
     points: [
       "Development of a Facial Recognition-Based Attendance System.",
-      "Tools: Python , Django , OpenCv , Dlib , Matplotlib , Seaborn , Numpy , Pandas;",
+      "Tools: ReactJs, NodeJs, ExpressJs, MongoDB; Python , OpenCv , Dlib , Matplotlib , Seaborn , Numpy , Pandas;",
     ],
   },
   {
-    title: "ENSET - Initiation Internship",
+    title: "ENSET - Initiation Internship - Mobile Developer",
     company_name: "BCEII",
     icon: bceii,
     iconBg: "#E6DEDD",
@@ -164,25 +189,25 @@ const experiences = [
     ],
   },
   {
-    title: "ESTE -  End of Studies Internship",
+    title: "ESTE -  End of Studies Internship - Full Stack Developer",
     company_name: "the Higher School of Technology of Essaouira",
     icon: este,
     iconBg: "#E6DEDD",
     date: "Apr 2019 - Jul 2019",
     points: [
       "Development of an e-learning website for the school.",
-      "Tools: AngularJs ,NodeJs ,Mongodb ,ExpressJs;",
+      "Tools: ReactJs ,NodeJs ,Mongodb ,ExpressJs;",
     ],
   },
   {
-    title: "ESTE - Technical Internship",
+    title: "ESTE - Technical Internship - Full Stack Developer",
     company_name: "AIA Expert",
     icon: aia,
     iconBg: "#E6DEDD",
     date: "Aug 2018 - Sep 2018",
     points: [
       "Development of a stock management website.",
-      "Tools: AngularJs ,NodeJs ,Mongodb ,ExpressJs;",
+      "Tools: ReactJs ,NodeJs ,Mongodb ,ExpressJs;",
     ],
   },
 ];
@@ -191,9 +216,9 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Sohaib proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    name: "Imane Dishka",
+    designation: "CEO",
+    company: "Braincraft",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {

@@ -21,6 +21,9 @@ import sklearn from "./tech/sklearn.svg";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
+import reactjs from "./tech/reactjs.png";
+import expressjs from "./tech/expressjs.png";
+import jenkins from "./tech/jenkins.png";
 
 import bceii from "./company/bceii.png";
 import bycode from "./company/bycode.png";
@@ -28,6 +31,7 @@ import ecn from "./company/ecn.png";
 import um6p from "./company/um6p.png";
 import este from "./company/este.png";
 import aia from "./company/aia.png";
+import freelancer from "./company/freelancer.png";
 
 import traffic from "./traffic.png";
 import smarthome from "./smarthome.jpg";
@@ -56,6 +60,9 @@ export {
   typescript,
   threejs,
   python,
+  reactjs,
+  expressjs,
+  jenkins,
   bceii,
   bycode,
   ecn,
@@ -65,4 +72,5 @@ export {
   traffic,
   smarthome,
   ecomm,
+  freelancer,
 };
